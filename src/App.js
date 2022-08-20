@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import Esg from './pages/Esg'
 import Tracker from './pages/Tracker'
 import Search from './pages/Search'
+import StockProfile from './pages/StockProfile'
  
 function App() {
  return (
@@ -18,6 +19,7 @@ function App() {
            <Route path="/tracker" exact element={<Tracker />} />
            <Route path="/esg" exact element={<Esg />} />
            <Route path='/search' exact element={<Search />} />
+           <Route path='/search/:id' exact element={<StockProfile />} />
          </Routes>
        </Suspense>
      </BrowserRouter>

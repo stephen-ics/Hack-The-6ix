@@ -15,6 +15,7 @@ const Home = () => {
         <div className='flex flex-coll justify-center items-center h-full'>
           <h1 className='mt-40 text-8xl p-5 text-slate-800 text-center'>Title</h1>
         </div>
+        <div className = 'text-2xl text-bold'>
         <Typewriter
           options={{
             strings: ['Keep your stocks close'],
@@ -23,6 +24,7 @@ const Home = () => {
           }}
   
         />
+        </div>
         <div className='p-5 px-10'>
           <Link to='/search'>
             <motion.button className="w-56 text-2xl text-slate-800 mt-32 rounded-3xl p-5 bg-blue-200/[.3] border-blue-100 border-solid border-2"

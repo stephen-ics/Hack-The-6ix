@@ -10,18 +10,24 @@ import {
 } from "react-router-dom";
  
 const links = [
-   {
+    {
+        name: "Search for Plants",
+        link: "/search",
+        id: "search",
+        priority: false
+    },
+    {
        name: "Stock Tracker",
        link: "/tracker",
        id: "tracker",
        priority: false
-   },
-   {
+    },
+    {
        name: "ESG Evaluation",
        link: "/esg",
        id: "esg",
        priority: false
-   },
+    },
    /*
    {
        name: "Sign Up",
