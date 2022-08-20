@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { Link, useParams } from 'react-router-dom'
 
-const StockSection = ({ stocks }) => {
+const DashboardSection = ({ stocks }) => {
     return (
     <div className='w-full items-center mt-10'>
         <div className='w-full'>
@@ -11,7 +11,7 @@ const StockSection = ({ stocks }) => {
                 whileHover={{scale:1.05}}
                 whileTap={{scale:0.95}}>
                     <div className=''>
-                        <Link to={`/search/${stock.id}`}>
+                        <Link to={`/tracker/${stock.id}`}>
                             <div className='shadow-2xl w-full bg-gray-100 rounded-xl flex items-center p-8 justify-between'>
                                 <img src='Grass.jpeg' className='rounded-full w-32 h-32'/>
                                 <h1 className='text-slate-800 text-7xl ml-full w-full'>{stock.title}</h1>
@@ -26,4 +26,4 @@ const StockSection = ({ stocks }) => {
   )
 }
 
-export default StockSection
+export default DashboardSection

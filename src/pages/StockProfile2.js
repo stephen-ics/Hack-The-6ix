@@ -46,16 +46,9 @@ const SearchProfile = () => {
                             <h1 className='text-white text-5xl'>{stockData.title}</h1>  
                         </div>
                     </div>
-                    <div className='w-full justify-around mt-10 text-white flex items-center'>
-                        <motion.button className='w-1/2 py-6 px-8 bg-blue-200 rounded-2xl border-blue-600 border-solid border-2'
-                        whileHover={{scale:1.05}}
-                        whileTap={{scale:0.95}}
-                        onClick={handleSubmit}>Add to Dashboard
-                        </motion.button>
-                    </div>
                 </div>
             </div>
-        </div>}
+        </div>} 
     </div>
   )
 }

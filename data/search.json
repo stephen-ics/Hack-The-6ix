@@ -1,52 +1,47 @@
 {
-    "StockSection": [
+    "SearchSection": [
         {
-            "title": "Tulips",
+            "title": "Stock1",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
+            "image": "../images/Grass.jpeg",
+            "id": "Stock1"
         },
         {
-            "title": "Tulips",
+            "title": "Stock2",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
+            "stock": "/images/grass.jpeg",
+            "id": "Stock2"
         },
         {
-            "title": "Tulips",
+            "title": "Stock3",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
+            "stock": "/images/grass.jpeg",
+            "id": "Stock3"
         },
         {
-            "title": "Tulips",
+            "title": "Stock4",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
+            "stock": "/images/grass.jpeg",
+            "id": "Stock4"
         },
         {
-            "title": "Tulips",
+            "title": "Stock5",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
+            "stock": "/images/grass.jpeg",
+            "id": "Stock5"
         },
         {
-            "title": "Tulips",
+            "title": "Stock6",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
-        },
-        {
-            "title": "Tulips",
-            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
-        },
-        {
-            "title": "Tulips",
-            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg"
-        }
+            "stock": "/images/grass.jpeg",
+            "id": "Stock6"
+        }   
+
     ]
 }
