@@ -3,7 +3,9 @@ import React, { Suspense } from "react";
  
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
-import About from './pages/About'
+import Esg from './pages/Esg'
+import Tracker from './pages/Tracker'
+import Search from './pages/Search'
  
 function App() {
  return (
@@ -13,7 +15,9 @@ function App() {
          <Navbar />
          <Routes>
            <Route path="/" exact element={<Home />} />
-           <Route path="/about" exact element={<About />} />
+           <Route path="/tracker" exact element={<Tracker />} />
+           <Route path="/esg" exact element={<Esg />} />
+           <Route path='/search' exact element={<Search />} />
          </Routes>
        </Suspense>
      </BrowserRouter>

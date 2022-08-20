@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import { classNames } from "../lib/cssTools";
+import { Link } from 'react-router-dom'
+
 
 const PageSection = ({
     title,
@@ -10,6 +12,7 @@ const PageSection = ({
     buttonLabel,
     image,
     reversed,
+    linkTo,
 }) => {
     return (
         <section
@@ -26,21 +29,25 @@ const PageSection = ({
                         {subtitle}
                     </h3>
                     <p className="text-zinc-900 text-md">{description}</p>
-                    <motion.button
-                        whileHover={{scale:1.1}}
-                        whileTap={{scale:0.9}} 
-                        className='p-6 mt-8 rounded-xl px-16 text-2xl text-slate-800 font-bold bg-blue-100'>{buttonLabel}</motion.button>
+                    <Link to={linkTo}>
+                        <motion.button
+                            whileHover={{scale:1.1}}
+                            whileTap={{scale:0.9}} 
+                            className='p-6 mt-8 rounded-xl px-16 text-2xl text-slate-800 font-bold bg-blue-100'>
+                                {buttonLabel}
+                        </motion.button>
+                    </Link>
                 </div>
             </div>
             <motion.button
-                whileHover={{scale:1.05}}
-                whileTap={{scalle:0.95}}>
-                    <img
-                        src={image}
-                        alt={title}
-                        className="max-w-[500px] shadow-2xl rounded-lg"
-                    />
-            </motion.button>
+                    whileHover={{scale:1.05}}
+                    whileTap={{scalle:0.95}}>
+                        <img
+                            src={image}
+                            alt={title}
+                            className="max-w-[500px] shadow-2xl rounded-lg"
+                        />
+                </motion.button>
         </section>
     );
 };
