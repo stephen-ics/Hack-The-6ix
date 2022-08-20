@@ -17,38 +17,21 @@ const SearchProfile = () => {
           setStockData(data);
         });
     }, []);
-  
-  const handleSubmit = (e) => {
-    const title = stockData.title
-    const percentageDifference = stockData.percentageDifference
-    const history = stockData.history
-    const image = stockData.image
-    const id = stockData.id
-
-    e.preventDefault();
-    const stock  = { title, percentageDifference, history, image };
-    fetch('http://localhost:3001/StockSection', {
-      method: 'POST', 
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(stock)
-    })
-  }
 
   return (
     <div className='flex justify-center'>
         {stockData &&
-        <div className='w-3/4 items-center justify-evenly mt-10'>
-            <div className='flex bg-gray-200 rounded-xl shadow-xl p-10 items-center w-full pt-20'> 
-                <div className='flex flex-col w-full'>
-                    <div className='flex items-start justify-between'>
-                        <img src={stockData.image} className='rounded-full w-48 h-48 ml-20'/>
-                        <div className='flex flex-col bg-gray-300 w-1/3 px-4 pt-8 mx-16 rounded-2xl h-72 items-start text-start'> 
-                            <h1 className='text-white text-5xl'>{stockData.title}</h1>  
-                        </div>
-                    </div>
-                </div>
+        <div className='w-3/4 items-center justify-evenly h-full mt-10'>
+        <div className='flex items-start bg-gray-100/[0.8] h-full rounded-xl shadow-xl p-10 w-full pt-20'> 
+            <div className='flex flex-col w-full h-full ml-20'>
+              <div className='bg-purple-100 h-full w-1/2 shadow-xl rounded-2xl p-10'>L1</div>
+              <div className='bg-violet-300 h-full w-1/2 shadow-xl rounded-2xl p-60 mt-10'>L2</div>
             </div>
-        </div>} 
+            <div className='bg-violet-300 h-full shadow-xl rounded-2xl p-56 mt-10 mr-20'>
+                <h1>sLOL</h1>
+            </div>
+        </div>
+    </div>} 
     </div>
   )
 }

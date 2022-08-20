@@ -37,22 +37,23 @@ const SearchProfile = () => {
   return (
     <div className='flex justify-center'>
         {stockData &&
-        <div className='w-3/4 items-center justify-evenly mt-10'>
-            <div className='flex bg-gray-200 rounded-xl shadow-xl p-10 items-center w-full pt-20'> 
-                <div className='flex flex-col w-full'>
-                    <div className='flex items-start justify-between'>
-                        <img src={stockData.image} className='rounded-full w-48 h-48 ml-20'/>
-                        <div className='flex flex-col bg-gray-300 w-1/3 px-4 pt-8 mx-16 rounded-2xl h-72 items-start text-start'> 
-                            <h1 className='text-white text-5xl'>{stockData.title}</h1>  
-                        </div>
-                    </div>
-                    <div className='w-full justify-around mt-10 text-white flex items-center'>
-                        <motion.button className='w-1/2 py-6 px-8 bg-blue-200 rounded-2xl border-blue-600 border-solid border-2'
-                        whileHover={{scale:1.05}}
-                        whileTap={{scale:0.95}}
-                        onClick={handleSubmit}>Add to Dashboard
-                        </motion.button>
-                    </div>
+        <div className='w-3/4 items-center justify-evenly h-full mt-10'>
+            <div className='flex items-start bg-gray-100/[0.8] h-full rounded-xl shadow-xl p-10 w-full pt-20'> 
+                <div className='flex flex-col w-full h-full ml-20'>
+                  <div className='bg-purple-100 h-full w-1/2 shadow-xl rounded-2xl p-10'>L1</div>
+                  <div className='bg-violet-300 h-full w-1/2 shadow-xl rounded-2xl p-60 mt-10'>L2</div>
+                </div>
+                <div className='flex flex-col mr-20'>
+                  <motion.button 
+                    whileHover={{scale:1.1}}
+                    whileTap={{scale:0.9}}
+                    onClick={handleSubmit}
+                    className='bg-violet-300 text-center h-full shadow-xl rounded-2xl py-12 mr-20'>
+                    Add to Watchlist
+                  </motion.button>
+                  <div className='bg-violet-300 h-full shadow-xl rounded-2xl p-56 mt-10 mr-20'>
+                    LOL
+                  </div>
                 </div>
             </div>
         </div>}
