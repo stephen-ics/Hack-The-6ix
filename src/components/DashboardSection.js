@@ -19,7 +19,7 @@ const DashboardSection = ({ stocks, search }) => {
                     <div className=''>
                         <Link to={`/tracker/${stock.id}`}>
                             <div className='shadow-2xl w-full bg-violet-300 rounded-xl flex items-center p-8 justify-between'>
-                                <img src='Grass.jpeg' className='rounded-full w-32 h-32'/>
+                                <img src={stock.image} className='rounded-full w-32 h-32'/>
                                 <h1 className='text-slate-800 text-7xl ml-20 w-full'>{stock.title}</h1>
                             </div>
                         </Link>

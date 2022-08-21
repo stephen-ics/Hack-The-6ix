@@ -6,7 +6,7 @@ const getESGData = async (company) => {
 
     let res;
     try {
-        res = await axios.get(`https://tf689y3hbj.execute-api.us-east-1.amazonaws.com/prod/authorization/search?q=${company}&token=${token}`);
+        res = await axios.get(`https://cors-anywhere.herokuapp.com/tf689y3hbj.execute-api.us-east-1.amazonaws.com/prod/authorization/search?q=${company}&token=${token}`);
     } catch (e) {
         console.log(e)
         return

@@ -55,15 +55,6 @@
             "id": "META"
         },
         {
-            "title": "PEP",
-            "history": "https://media.ycharts.com/charts/7647011bb909f4d677faae03ea8de8ed.png",
-            "percentageDifference30Days": "Holland is still the largest producer of tulips",
-            "percentageDifference": "-0.13%",
-            "image": "",
-            "description": "PepsiCo, Inc.",
-            "id": "PEP"
-        },
-        {
             "title": "NVDA",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
             "percentageDifference30Days": "Holland is still the largest producer of tulips",
@@ -71,25 +62,7 @@
             "image": "/_stock7.png",
             "description": "NVIDIA Corporation",
             "id": "NVDA"
-        },
-        {
-            "title": "BRK.B",
-            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference30Days": "Holland is still the largest producer of tulips",
-            "percentageDifference": "-2.30%",
-            "image": "/images/grass.jpeg",
-            "description": "Berkshire Hathaway Inc",
-            "id": "BRK.B"
-        },
-        {
-            "title": "UNH",
-            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference30Days": "Holland is still the largest producer of tulips",
-            "percentageDifference": "+0.66%",
-            "image": "/images/grass.jpeg",
-            "description": "UnitedHealth Group Inc",
-            "id": "UNH"
-        }   
+        }
 
     ]
 }

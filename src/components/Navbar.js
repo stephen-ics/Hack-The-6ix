@@ -28,12 +28,7 @@ const links = [
        id: "esg",
        priority: false
     },
-    {
-        name: "stock temp",
-        link:"/stock",
-        id: "stock",
-        priority: false
-    }
+
    /*
    {
        name: "Sign Up",

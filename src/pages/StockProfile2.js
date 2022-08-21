@@ -3,6 +3,7 @@ import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { motion } from 'framer-motion'
 
+
 const SearchProfile = () => {
   const { id } = useParams();
   const [stockData, setStockData] = useState(null);
@@ -27,8 +28,9 @@ const SearchProfile = () => {
          <div className='w-3/4 items-center justify-evenly h-full mt-10'>
             <div className='flex justify-around flex-wrap items-start bg-gray-100/[0.8] h-full rounded-xl shadow-xl p-10 w-full pt-20'> 
                 <div className='flex flex-col w-2/5 h-full'>
+                    <img src={stockData.image} className='h-20 w-20'/>
                     <div className='bg-purple-100 h-full text-2xl w-full shadow-xl rounded-2xl p-6'>{stockData.title}</div>
-                    <iframe src='https://www.youtube.com/watch?v=nHouJc__q2Y' className='bg-violet-300 h-96 w-full shadow-xl rounded-2xl mt-10'>L2</iframe>
+                    <iframe src='https://www.youtube.com/watch?v=nHouJc__q2Y' className='bg-violet-300 h-96 w-full shadow-xl rounded-2xl mt-10'>{stockData.description}</iframe>
                 </div>
                 <div className='flex flex-col w-2/5 h-96 bg-violet-300 shadow-xl rounded-2xl'>
                     

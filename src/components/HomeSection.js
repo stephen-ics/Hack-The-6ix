@@ -15,10 +15,10 @@ const PageSection = ({
     linkTo,
 }) => {
     return (
-        <section
+        <div
             className={classNames(
-                "p-12 gap-12 flex justify-around flex-col",
-                (reversed ? "md:flex-row-reverse" : "md:flex-row"),
+            "p-12 gap-12 flex justify-around flex-col",
+            (reversed ? "md:flex-row-reverse" : "md:flex-row"),
         )}
         >
             <div className="rounded-lg flex items-center shadow-2xl" style={{backgroundColor: "rgba(225, 225, 225, 0.3)"}}>
@@ -40,15 +40,15 @@ const PageSection = ({
                 </div>
             </div>
             <motion.button
-                    whileHover={{scale:1.05}}
-                    whileTap={{scalle:0.95}}>
-                        <img
-                            src={image}
-                            alt={title}
-                            className="max-w-[500px] shadow-2xl rounded-lg"
-                        />
-                </motion.button>
-        </section>
+                whileHover={{scale:1.05}}
+                whileTap={{scalle:0.95}}>
+                    <img
+                        src={image}
+                        alt={title}
+                        className="max-w-[500px] shadow-2xl rounded-lg"
+                    />
+            </motion.button>
+        </div>
     );
 };
 
