@@ -16,9 +16,7 @@ const Home = () => {
 
       <div className="bg-gray-100 h-full pb-20 m-10 rounded-lg flex flex-col items-center w-3/4 font-mono">
         <div className='flex flex-coll justify-center items-center h-full'>
-          <video className='my-10'>
-              <source src="/stock.mp4" type='video/mp4'></source>
-          </video>
+          <video src="/stock.mp4" autoPlay loop className='my-10' />
         </div>
         <div className = 'text-2xl text-bold'>
         <Typewriter
