@@ -4,9 +4,7 @@ fetch('https://tf689y3hbj.execute-api.us-east-1.amazonaws.com/prod/authorization
 const Esg = () => {
 
   return (
-    <div>
 
-    </div>
   )
 }
 
