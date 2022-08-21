@@ -90,7 +90,7 @@ const SearchProfile = () => {
                       <h1 className='text-lg mt-1'>{stockData.enviroD}</h1>
                       <h1 className='text-xl mt-2'>Social: {stockData.socio}</h1>
                       <h1 className='text-lg mt-1'>{stockData.socioD}</h1>
-                      <h1 className='text-xl mt-2'>Government: {stockData.governo}</h1>
+                      <h1 className='text-xl mt-2'>Governance: {stockData.governo}</h1>
                       <h1 className='text-lg mt-1'>{stockData.governoD}</h1>
                     </div>
                   </div>

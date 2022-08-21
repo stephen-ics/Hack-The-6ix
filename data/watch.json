@@ -1,6 +1,21 @@
 {
   "StockSection": [
     {
+      "title": "TSLA",
+      "percentageDifference": "-2.05%",
+      "history": "NASDAQ:TSLA",
+      "image": "/_stock1.png",
+      "description": "Tesla, Inc.",
+      "enviro": "555",
+      "socio": "160",
+      "governo": "278",
+      "enviroD": "This company has a positive contribution to the natural environment.",
+      "socioD": "This company does not treat people well.",
+      "governoD": "This company has an average performance on the governance standards. ",
+      "esg": "993",
+      "id": 1
+    },
+    {
       "title": "MSFT",
       "percentageDifference": "-1.39%",
       "history": "NASDAQ:MSFT",
@@ -10,10 +25,10 @@
       "socio": "443",
       "governo": "375",
       "enviroD": "This company has a positive contribution to the natural environment.",
-      "socioD": "This company does not treat people well.",
+      "socioD": "This company has an high performance in treating their employees and the community.",
       "governoD": "This company has an average performance on the governance standards. ",
       "esg": "1533",
-      "id": 1
+      "id": 2
     }
   ]
 }
