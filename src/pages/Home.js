@@ -38,8 +38,8 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <HomeSection title="To the moon!" buttonLabel="Check it out" subtitle="Keep track of the live stock market and make smart decisions on your investments!" image={Grass} reversed={false} linkTo='/esg'/>
-      <HomeSection title="ESG Evaluations" buttonLabel="Check it out" subtitle="Take the future investments into your hands. " image={Grass} reversed={true} linkTo='tracker' />
+      <HomeSection title="To the moon!" buttonLabel="Check it out" subtitle="Keep track of the live stock market and make smart decisions on your investments!" image={Grass} reversed={false} linkTo='/tracker'/>
+      <HomeSection title="ESG Evaluations" buttonLabel="Check it out" subtitle="Take the future investments into your hands. " image={Grass} reversed={true} linkTo='esg' />
     </motion.section>
 
   )

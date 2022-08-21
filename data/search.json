@@ -6,7 +6,14 @@
             "percentageDifference": "-1.51%",
             "image": "/_stock2.png",
             "description": "Apple Inc. \nTech Company",
-            "id": "APPL"
+            "id": "APPL",
+            "enviro": "355",
+            "enviroD": "This company performs as an average steward of the natural environment.",
+            "socio": "281",
+            "socioD": "This company has an average performance in treating their employees and the community.",
+            "governo": "355",
+            "governoD": "This company has an average performance on the governance standards. ",
+            "esg": "891"
         },
         {
             "title": "TSLA",
@@ -14,7 +21,14 @@
             "percentageDifference": "-2.05%",
             "image": "/_stock1.png",
             "description": "Tesla, Inc.",
-            "id": "TSLA"
+            "id": "TSLA",
+            "enviro": "555",
+            "enviroD": "This company has a positive contribution to the natural environment.",
+            "socio": "160",
+            "socioD": "This company does not treat people well.",
+            "governo": "278",
+            "governoD": "This company has an average performance on the governance standards. ",
+            "esg": "993"
         },
         {
             "title": "MSFT",
@@ -22,7 +36,14 @@
             "percentageDifference": "-1.39%",
             "image": "/_stock4.png",
             "description": "Microsoft Corporation",
-            "id": "MSFT"
+            "id": "MSFT",
+            "enviro": "715",
+            "enviroD": "This company has a positive contribution to the natural environment.",
+            "socio": "443",
+            "socioD": "This company has an high performance in treating their employees and the community.",
+            "governo": "375",
+            "governoD": "This company has an average performance on the governance standards. ",
+            "esg": "1533"
         },
         {
             "title": "AMZN",
@@ -30,7 +51,14 @@
             "percentageDifference": "-2.86%",
             "image": "/_stock3.png",
             "description": "Amazon.com Inc.",
-            "id": "AMZN"
+            "id": "AMZN",
+            "enviro": "668",
+            "enviroD": "This company has an extremely positive contribution to the natural environment.",
+            "socio": "305",
+            "socioD": "This company has an average performance in treating their employees and the community.",
+            "governo": "460",
+            "governoD": "This company is well governed by legal policies.",
+            "esg": "1433"
         },
         {
             "title": "GOOGL",
@@ -38,7 +66,14 @@
             "percentageDifference": "-2.46%",
             "image": "/_stock6.png",
             "description": "Alphabet Inc. Class A",
-            "id": "GOOGL"
+            "id": "GOOGL",
+            "enviro": "295",
+            "enviroD": "This company performs as an average steward of the natural environment.",
+            "socio": "362",
+            "socioD": "This company has an average performance in treating their employees and the community.",
+            "governo": "355",
+            "governoD": "This company has an average performance on the governance standards. ",
+            "esg": "1012"
         },
         {
             "title": "META",
@@ -46,7 +81,14 @@
             "percentageDifference": "-3.84%",
             "image": "/_stock5.png",
             "description": "Meta Platforms Inc.",
-            "id": "META"
+            "id": "META",
+            "enviro": "205",
+            "enviroD": "This company performs as an average steward of the natural environment.",
+            "socio": "232",
+            "socioD": "This company has an average performance in treating their employees and the community.",
+            "governo": "215",
+            "governoD": "This company has an average performance on the governance standards. ",
+            "esg": "652"
         },
         {
             "title": "NVDA",
@@ -54,7 +96,14 @@
             "percentageDifference": "-4.92%",
             "image": "/_stock7.png",
             "description": "NVIDIA Corporation",
-            "id": "NVDA"
+            "id": "NVDA",
+            "enviro": "323",
+            "enviroD": "This company performs as an average steward of the natural environment.",
+            "socio": "301",
+            "socioD": "This company has an average performance in treating their employees and the community.",
+            "governo": "275",
+            "governoD": "This company has an average performance on the governance standards. ",
+            "esg": "899"
         }
 
     ]

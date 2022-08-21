@@ -1,14 +1,19 @@
 {
-    "StockSection": [
-        {
-            "title": "APPL",
-            "history": "NASDAQ:APPL",
-            "percentageDifference30Days": "+1.13%",
-            "percantageDifference": "-1.51%",
-            "image": "/_stock2.png",
-            "description": "Apple Inc. \nTech Company",
-            "id": "APPL"
-        }
-
-    ]
+  "StockSection": [
+    {
+      "title": "MSFT",
+      "percentageDifference": "-1.39%",
+      "history": "NASDAQ:MSFT",
+      "image": "/_stock4.png",
+      "description": "Microsoft Corporation",
+      "enviro": "715",
+      "socio": "443",
+      "governo": "375",
+      "enviroD": "This company has a positive contribution to the natural environment.",
+      "socioD": "This company does not treat people well.",
+      "governoD": "This company has an average performance on the governance standards. ",
+      "esg": "1533",
+      "id": 1
+    }
+  ]
 }

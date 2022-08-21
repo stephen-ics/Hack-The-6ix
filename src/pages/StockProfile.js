@@ -20,16 +20,28 @@ const SearchProfile = () => {
           setStockData(data);
         });
     }, []);
+
+
   
   const handleSubmit = (e) => {
+    console.log('ala')
     const title = stockData.title
     const percentageDifference = stockData.percentageDifference
     const history = stockData.history
     const image = stockData.image
     const description = stockData.description
+    const enviro = stockData.enviro
+    const socio = stockData.socio
+    const governo = stockData.governo
+    const enviroD =  stockData.enviroD
+    const socioD = stockData.socioD
+    const governoD = stockData.governoD
+    const esg = stockData.esg
 
     e.preventDefault();
-    const stock  = { title, percentageDifference, history, stock, image, description };
+    const stock  = { title, percentageDifference, history, image, description, enviro, socio, governo, enviroD, socioD, governoD, esg };
+
+
     fetch('http://localhost:3001/StockSection', {
       method: 'POST', 
       headers: { 'Content-Type': 'application/json' },
@@ -71,9 +83,15 @@ const SearchProfile = () => {
                     Add to Watchlist
                   </motion.button>
                   <div className='bg-violet-200 shadow-xl rounded-2xl h-96 mt-10'>
-                    <h1 className='text-center mt-6 text-3xl'>ESG Score: 0</h1>
+                    <h1 className='text-center mt-6 text-3xl mb-8'>{stockData.description}</h1>
                     <div className='ml-10 mt-5'>
-                      <h1>{stockData.description}</h1>
+                      <h1 className='text-2xl font-semibold'>ESG Score: {stockData.esg}</h1>
+                      <h1 className='text-xl mt-2'>Environmental: {stockData.enviro}</h1>
+                      <h1 className='text-lg mt-1'>{stockData.enviroD}</h1>
+                      <h1 className='text-xl mt-2'>Social: {stockData.socio}</h1>
+                      <h1 className='text-lg mt-1'>{stockData.socioD}</h1>
+                      <h1 className='text-xl mt-2'>Government: {stockData.governo}</h1>
+                      <h1 className='text-lg mt-1'>{stockData.governoD}</h1>
                     </div>
                   </div>
                 </div>

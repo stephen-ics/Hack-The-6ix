@@ -21,14 +21,13 @@ const PageSection = ({
             (reversed ? "md:flex-row-reverse" : "md:flex-row"),
         )}
         >
-            <div className="rounded-lg flex items-center shadow-2xl" style={{backgroundColor: "rgba(225, 225, 225, 0.3)"}}>
+            <div className="ml-40 rounded-lg w-1/2 flex items-center shadow-xl" style={{backgroundColor: "rgba(225, 225, 225, 0.2)"}}>
                 {/* Text container within parent div */}
                 <div className="pl-10 mx-3 flex align-right flex-col font-mono">
                     <h1 className="text-4xl font-bold">{title}</h1>
-                    <h3 className="text-xl mt-6 font-bold text-zinc-700">
+                    <h3 className="text-xl mt-6 w-1/2 font-bold text-zinc-700">
                         {subtitle}
                     </h3>
-                    <p className="text-zinc-900 text-md">{description}</p>
                     <Link to={linkTo}>
                         <motion.button
                             whileHover={{scale:1.1}}
