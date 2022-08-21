@@ -49,7 +49,7 @@ const Navbar = () => {
                <div className="flex justify-between items-center">
                    <Link className="flex flex-row items-center gap-4 font-bold text-xl text-teal" to="/">
                        {/* <img src="" alt="Logo" width={29} height={42} /> */}
-                       <h2 className="text-2xl text-slate-800 font-mono">NAME</h2>
+                       <h2 className="text-2xl text-slate-800 font-mono">STOCK STALKER</h2>
                    </Link>
  
                    <button
