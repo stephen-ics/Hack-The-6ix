@@ -28,6 +28,12 @@ const links = [
        id: "esg",
        priority: false
     },
+    {
+        name: "stock temp",
+        link:"/stock",
+        id: "stock",
+        priority: false
+    }
    /*
    {
        name: "Sign Up",
@@ -43,7 +49,7 @@ const Navbar = () => {
    const { pathname } = useLocation();
  
    return (
-       <header className="border-gray-200 border-solid border-2 flex flex-col justify-center bg-white-900 sticky z-[99999999] min-h-[7vh] py-2 lg:py-4 shadow-2xl m-10 rounded-xl">
+       <header className="border-gray-200 border-solid border-2 flex flex-col justify-center bg-white-900 sticky z-[99999999] min-h-[7vh] py-2 lg:py-4 shadow-xl m-10 rounded-xl">
            <div className="container px-4 mx-auto lg:flex lg:items-center m-30">
                <div className="flex justify-between items-center">
                    <Link className="flex flex-row items-center gap-4 font-bold text-xl text-teal" to="/">

@@ -1,46 +1,94 @@
 {
     "SearchSection": [
         {
-            "title": "Stock1",
-            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "image": "/Test.png",
-            "id": "Stock1"
+            "title": "APPL",
+            "history": "https://static.seekingalpha.com/uploads/2018/12/11/49782598-15445900826347349_origin.png",
+            "percentageDifference30Days": "+1.13%",
+            "percantageDifference": "-1.51%",
+            "image": "/_stock2.png",
+            "description": "Apple Inc. \nTech Company",
+            "id": "APPL"
         },
         {
-            "title": "Stock2",
+            "title": "TSLA",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg",
-            "id": "Stock2"
+            "percentageDifference30Days": "+1.21%",
+            "percantageDifference": "-2.05%",
+            "image": "/_stock1.png",
+            "description": "Tesla, Inc.",
+            "id": "TSLA"
         },
         {
-            "title": "Stock3",
+            "title": "MSFT",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg",
-            "id": "Stock3"
+            "percentageDifference30Days": "+1.10%",
+            "percantageDifference": "-1.39%",
+            "image": "/_stock4.png",
+            "description": "Microsoft Corporation",
+            "id": "MSFT"
         },
         {
-            "title": "Stock4",
+            "title": "AMZN",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg",
-            "id": "Stock4"
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "-2.86%",
+            "image": "/_stock3.png",
+            "description": "Amazon.com Inc.",
+            "id": "AMZN"
         },
         {
-            "title": "Stock5",
-            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg",
-            "id": "Stock5"
+            "title": "GOOGL",
+            "history": "https://www.google.ca/",
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "-2.46%",
+            "image": "/_stock6.png",
+            "description": "Alphabet Inc. Class A",
+            "id": "GOOGL"
         },
         {
-            "title": "Stock6",
+            "title": "META",
             "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
-            "percentageDifference": "Holland is still the largest producer of tulips",
-            "stock": "/images/grass.jpeg",
-            "id": "Stock6"
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "-3.84%",
+            "image": "/_stock5.png",
+            "description": "Meta Platforms Inc.",
+            "id": "META"
+        },
+        {
+            "title": "PEP",
+            "history": "https://media.ycharts.com/charts/7647011bb909f4d677faae03ea8de8ed.png",
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "-0.13%",
+            "image": "",
+            "description": "PepsiCo, Inc.",
+            "id": "PEP"
+        },
+        {
+            "title": "NVDA",
+            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "-4.92%",
+            "image": "/_stock7.png",
+            "description": "NVIDIA Corporation",
+            "id": "NVDA"
+        },
+        {
+            "title": "BRK.B",
+            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "-2.30%",
+            "image": "/images/grass.jpeg",
+            "description": "Berkshire Hathaway Inc",
+            "id": "BRK.B"
+        },
+        {
+            "title": "UNH",
+            "history": "Tulips are a genus of spring-blooming perennial herbaceous bulbiferous geophytes. The flowers are usually large, showy and brightly coloured, generally red, pink, yellow, or white.",
+            "percentageDifference30Days": "Holland is still the largest producer of tulips",
+            "percentageDifference": "+0.66%",
+            "image": "/images/grass.jpeg",
+            "description": "UnitedHealth Group Inc",
+            "id": "UNH"
         }   
 
     ]

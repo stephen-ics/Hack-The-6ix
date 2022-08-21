@@ -23,7 +23,7 @@ const PageSection = ({
         >
             <div className="rounded-lg flex items-center shadow-2xl" style={{backgroundColor: "rgba(225, 225, 225, 0.3)"}}>
                 {/* Text container within parent div */}
-                <div className="mx-3 flex items-center flex-col">
+                <div className="pl-10 mx-3 flex align-right flex-col font-mono">
                     <h1 className="text-4xl font-bold">{title}</h1>
                     <h3 className="text-xl mt-6 font-bold text-zinc-700">
                         {subtitle}

@@ -1,8 +1,7 @@
 
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { motion } from 'framer-motion'
-import { classNames } from "../lib/cssTools";
+import {motion} from 'framer-motion'
 import Typewriter from 'typewriter-effect';
 import HomeSection from '../components/HomeSection'
 import Grass from '../images/Grass.jpeg'
@@ -10,10 +9,16 @@ import Grass from '../images/Grass.jpeg'
 
 const Home = () => {
   return (
-    <div>
-      <div className="bg-gray-100 h-full pb-20 m-10 rounded-lg flex flex-col items-center">
+    <motion.section className='flex flex-col justify-center items-center w-full h-full mt-10'
+      initial={{ opacity: 0, y:100 }}
+      animate={{ opacity: 1, y:0, transition: { duration: 1 } }}
+      exit={{ opacity: 0, transition: { duration: 0.5 } }}>
+
+      <div className="bg-gray-100 h-full pb-20 m-10 rounded-lg flex flex-col items-center w-3/4 font-mono">
         <div className='flex flex-coll justify-center items-center h-full'>
-          <h1 className='mt-40 text-8xl p-5 text-slate-800 text-center'>Title</h1>
+          <video className='my-10'>
+              <source src="/stock.mp4" type='video/mp4'></source>
+          </video>
         </div>
         <div className = 'text-2xl text-bold'>
         <Typewriter
@@ -35,9 +40,9 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <HomeSection title="Grow with your plant." buttonLabel="button" subtitle="Take pictures of your plants and we'll turn it into a timelapse for you!" image={Grass} reversed={false} linkTo='/esg'/>
-      <HomeSection title="Care for your plants." buttonLabel="button" subtitle="Learn about your plant and set care reminders for them!" image={Grass} reversed={true} linkTo='tracker' />
-    </div>
+      <HomeSection title="To the moon!" buttonLabel="Check it out" subtitle="Keep track of the live stock market and make smart decisions on your investments!" image={Grass} reversed={false} linkTo='/esg'/>
+      <HomeSection title="ESG Evaluations" buttonLabel="Check it out" subtitle="Take the future investments into your hands. " image={Grass} reversed={true} linkTo='tracker' />
+    </motion.section>
 
   )
 }
